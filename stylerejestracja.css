@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.powitanie {
+    font-family: "Poppins", sans-serif;
+    margin-left: 100px;
+    margin-top: 100px; 
+}
+
+.powitanie h1 {
+    font-size: 120px;
+}
+
+.powitanie h2 {
+    font-size: 40px;
+}
+
+#top-menu a:hover {
+    color: #ccc;
+}

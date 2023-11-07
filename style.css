@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(tlo.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.rejestracja,
+.logowanie {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.rejestracja h1,
+.logowanie h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+}
+
+.rejestracja input[type="text"],
+.rejestracja input[type="password"],
+.logowanie input[type="text"],
+.logowanie input[type="password"]{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.rejestracja input[type="button"],
+.rejestracja input[type="submit"],
+.logowanie input[type="button"],
+.logowanie input[type="submit"] {
+    width: 50%;
+    background-color: gray;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.rejestracja input[type="button"]:hover,
+.rejestracja input[type="submit"]:hover,
+.logowanie input[type="button"]:hover,
+.logowanie input[type="submit"]:hover {
+    background-color: #333;
+    font-family: "Poppins", sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .logowanie{
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .rejestracja{
+        width: 80%;
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+#top-menu {
+    background-color: #333;
+    color: #fff; 
+    text-align: center;
+    padding: 15px; 
+
+}
+
+#top-menu li {
+    display: inline; 
+    margin-right: 70px; 
+
+}
+
+#top-menu a {
+    text-decoration: none; 
+    color: #fff;
+    transition: color 0.3s;
+
+}
+
+
