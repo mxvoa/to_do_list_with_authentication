@@ -67,6 +67,7 @@ if (isset($_POST["submit"])) {
         $row = $result->fetch_assoc();
         
             ?>
+            
 <div class="form-container">
     <form method="post">
         <div class="col">

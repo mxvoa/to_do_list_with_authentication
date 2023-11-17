@@ -73,7 +73,7 @@
         }
         ?>
     </table>
-    <a href="dodawanie_zadania.php"><input type="button" value="DODAJ NOWE ZADANIE"></a>
+    </br><a href="dodawanie_zadania.php"><input type="button" value="DODAJ NOWE ZADANIE"></a>
 </div>
 </div>
 
